@@ -1,0 +1,105 @@
+
+
+/*  */
+
+/* Header Styles */
+header {
+	text-align: center;
+  }
+  
+  #ggrande {
+	font-size: 200%;
+  }
+  
+  header span {
+	font-family: "Tangerine", 'Courier New', Courier, monospace;
+	/* font-family: "Fleur De Leah",'Courier New', Courier, monospace; */
+  }
+  
+  /* General Body Styles */
+  body {
+	margin: 0;
+	padding: 0;
+	background-color: #f8f9fa; /* Fondo claro para toda la página */
+  }
+  
+  /* Portfolio Menu */
+  .portfolio-menu {
+	text-align: center;
+  }
+  
+  .portfolio-menu ul li {
+	display: inline-block;
+	margin: 0;
+	list-style: none;
+	padding: 10px 15px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+  }
+  
+  /* Portfolio Items */
+  .portfolio-item {
+	/* width: 100%; */
+	margin: 2rem 0; /* Margen superior e inferior para mejor separación */
+	overflow: hidden; /* Evitar desbordamientos */
+  }
+  
+  .portfolio-item .item {
+	/* width: 303px; */
+	float: left;
+	margin-bottom: 15px;
+  }
+  
+  .portfolio-item .item img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px; /* Bordes redondeados */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombras para destacar */
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .portfolio-item .item img:hover {
+	transform: scale(1.05); /* Zoom suave al pasar el mouse */
+  }
+  
+  /* Footer Styles */
+  footer {
+	background-color: #343a40; /* Color oscuro para el footer */
+	color: #ffffff; /* Texto claro */
+	text-align: center;
+	padding: 1rem 0;
+	position: relative;
+	margin-top: 2rem; /* Separación del contenido */
+  }
+  
+  footer i {
+	margin-left: 8px;
+  }
+  
+  footer i:hover {
+	color: #007bff; /* Cambia a azul en hover */
+	transition: color 0.3s ease;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+	.portfolio-item .item {
+	  margin-bottom: 10px; /* Reducir espacio entre imágenes */
+	}
+  
+	header span {
+	  font-size: 1.5rem; /* Texto más pequeño en pantallas medianas */
+	}
+  }
+  
+  @media (max-width: 576px) {
+	footer {
+	  font-size: 0.9rem; /* Reducir el tamaño del texto del footer */
+	}
+  }
+  
